@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Commands;
+namespace VanLaravelPlugin\Tests\Commands;
 
 use Illuminate\Support\Facades\Event;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Tests\TestCase;
 
 class EnableCommandTest extends TestCase
 {

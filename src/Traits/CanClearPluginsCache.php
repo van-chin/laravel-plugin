@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Traits;
+namespace VanLaravelPlugin\Traits;
 
 trait CanClearPluginsCache
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Generators;
+namespace VanLaravelPlugin\Support\Generators;
 
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\GeneratorInterface;
-use Yxx\LaravelPlugin\Exceptions\LocalPathNotFoundException;
-use Yxx\LaravelPlugin\Exceptions\PluginAlreadyExistException;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRequire;
-use Yxx\LaravelPlugin\Support\DecompressPlugin;
-use Yxx\LaravelPlugin\Support\FileRepository;
-use Yxx\LaravelPlugin\Support\Json;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Contracts\GeneratorInterface;
+use VanLaravelPlugin\Exceptions\LocalPathNotFoundException;
+use VanLaravelPlugin\Exceptions\PluginAlreadyExistException;
+use VanLaravelPlugin\Support\Composer\ComposerRequire;
+use VanLaravelPlugin\Support\DecompressPlugin;
+use VanLaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Support\Json;
 
 class LocalInstallGenerator implements GeneratorInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace VanLaravelPlugin\Providers;
 
 use Carbon\Laravel\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Support\FileRepository;
 
 class ContractsServiceProvider extends ServiceProvider
 {

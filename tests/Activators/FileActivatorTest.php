@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Activators;
+namespace VanLaravelPlugin\Tests\Activators;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Activators\FileActivator;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Activators\FileActivator;
+use VanLaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Tests\TestCase;
 
 class FileActivatorTest extends TestCase
 {

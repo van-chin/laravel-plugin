@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace VanLaravelPlugin\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Contracts\ClientInterface;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\InvalidActivatorClass;
-use Yxx\LaravelPlugin\Support\FileRepository;
-use Yxx\LaravelPlugin\Support\Stub;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Contracts\ClientInterface;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Exceptions\InvalidActivatorClass;
+use VanLaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Support\Stub;
 
 class PluginServiceProvider extends ServiceProvider
 {

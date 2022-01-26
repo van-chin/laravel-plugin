@@ -1,15 +1,15 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace VanLaravelPlugin\Tests\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Support\Collection;
-use Yxx\LaravelPlugin\Support\FileRepository;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Exceptions\PluginNotFoundException;
+use VanLaravelPlugin\Support\Collection;
+use VanLaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 class FileRepositoryTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace VanLaravelPlugin\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

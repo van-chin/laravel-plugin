@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRemove;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
-use Yxx\LaravelPlugin\ValueObjects\ValRequire;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Support\Composer\ComposerRemove;
+use VanLaravelPlugin\Traits\PluginCommandTrait;
+use VanLaravelPlugin\ValueObjects\ValRequire;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRemoveCommand extends Command
 {

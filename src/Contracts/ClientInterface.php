@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Contracts;
+namespace VanLaravelPlugin\Contracts;
 
 use Psr\Http\Message\StreamInterface;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace VanLaravelPlugin\Tests\Support;
 
-use Yxx\LaravelPlugin\Exceptions\DecompressPluginException;
-use Yxx\LaravelPlugin\Support\CompressPlugin;
-use Yxx\LaravelPlugin\Support\DecompressPlugin;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Exceptions\DecompressPluginException;
+use VanLaravelPlugin\Support\CompressPlugin;
+use VanLaravelPlugin\Support\DecompressPlugin;
+use VanLaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Tests\TestCase;
 
 class DecompressPluginTest extends TestCase
 {

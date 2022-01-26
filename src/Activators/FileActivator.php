@@ -1,14 +1,14 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Activators;
+namespace VanLaravelPlugin\Activators;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Support\Plugin;
 
 class FileActivator implements ActivatorInterface
 {

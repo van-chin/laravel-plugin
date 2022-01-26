@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace VanLaravelPlugin\Support;
 
 use ArrayAccess;
 use Illuminate\Support\Arr;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Support\Generators\PluginGenerator;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Support\Generators\PluginGenerator;
 
 class PluginMakeCommand extends Command
 {

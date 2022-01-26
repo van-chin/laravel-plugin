@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Providers;
+namespace VanLaravelPlugin\Tests\Providers;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Tests\TestCase;
 
 class ContractsServiceProviderTest extends TestCase
 {

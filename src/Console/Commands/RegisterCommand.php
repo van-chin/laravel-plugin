@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Support\Config;
+use VanLaravelPlugin\Support\Config;
 
 class RegisterCommand extends Command
 {

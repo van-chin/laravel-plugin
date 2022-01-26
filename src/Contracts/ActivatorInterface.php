@@ -1,8 +1,8 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Contracts;
+namespace VanLaravelPlugin\Contracts;
 
-use Yxx\LaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Support\Plugin;
 
 interface ActivatorInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace VanLaravelPlugin\Support;
 
 use Exception;
 use Illuminate\Cache\CacheManager;
@@ -12,12 +12,12 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Symfony\Component\Process\Process;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Exceptions\InvalidAssetPath;
-use Yxx\LaravelPlugin\Exceptions\PluginNotFoundException;
-use Yxx\LaravelPlugin\Support\Process\Installer;
-use Yxx\LaravelPlugin\Support\Process\Updater;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Exceptions\InvalidAssetPath;
+use VanLaravelPlugin\Exceptions\PluginNotFoundException;
+use VanLaravelPlugin\Support\Process\Installer;
+use VanLaravelPlugin\Support\Process\Updater;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 class FileRepository implements RepositoryInterface
 {

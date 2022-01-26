@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Support\Stub;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use VanLaravelPlugin\Support\Config\GenerateConfigReader;
+use VanLaravelPlugin\Support\Stub;
+use VanLaravelPlugin\Traits\PluginCommandTrait;
 
 class ControllerMakeCommand extends GeneratorCommand
 {

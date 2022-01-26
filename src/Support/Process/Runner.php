@@ -1,9 +1,9 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Process;
+namespace VanLaravelPlugin\Support\Process;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Contracts\RunableInterface;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

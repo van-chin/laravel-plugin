@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\ValueObjects;
+namespace VanLaravelPlugin\Tests\ValueObjects;
 
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequire;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\ValueObjects\ValRequire;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 class ValRequiresTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace VanLaravelPlugin\Support;
 
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Process\Process;
-use Yxx\LaravelPlugin\Exceptions\CompressPluginException;
+use VanLaravelPlugin\Exceptions\CompressPluginException;
 use ZipArchive;
 
 class CompressPlugin

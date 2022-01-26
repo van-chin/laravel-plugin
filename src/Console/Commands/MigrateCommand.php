@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Yxx\LaravelPlugin\Support\Migrations\Migrator;
-use Yxx\LaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Support\Migrations\Migrator;
+use VanLaravelPlugin\Support\Plugin;
 
 class MigrateCommand extends Command
 {

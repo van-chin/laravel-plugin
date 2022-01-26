@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace VanLaravelPlugin\Support;
 
 use Exception;
 use Illuminate\Contracts\Support\Arrayable;

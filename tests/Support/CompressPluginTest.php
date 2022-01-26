@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support;
+namespace VanLaravelPlugin\Tests\Support;
 
-use Yxx\LaravelPlugin\Support\CompressPlugin;
-use Yxx\LaravelPlugin\Support\Plugin;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Support\CompressPlugin;
+use VanLaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Tests\TestCase;
 
 class CompressPluginTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Commands;
+namespace VanLaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Event;
-use Yxx\LaravelPlugin\Contracts\ActivatorInterface;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Contracts\ActivatorInterface;
+use VanLaravelPlugin\Tests\TestCase;
 
 class PluginDeleteCommandTest extends TestCase
 {

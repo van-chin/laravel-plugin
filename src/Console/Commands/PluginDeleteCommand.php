@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRemove;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use VanLaravelPlugin\Support\Composer\ComposerRemove;
+use VanLaravelPlugin\Traits\PluginCommandTrait;
 
 class PluginDeleteCommand extends Command
 {

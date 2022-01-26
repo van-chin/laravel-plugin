@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Commands;
+namespace VanLaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Tests\TestCase;
 
 class ProviderMakeCommandTest extends TestCase
 {

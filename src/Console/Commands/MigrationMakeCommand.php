@@ -1,16 +1,16 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use Yxx\LaravelPlugin\Support\Config\GenerateConfigReader;
-use Yxx\LaravelPlugin\Support\Migrations\NameParser;
-use Yxx\LaravelPlugin\Support\Migrations\SchemaParser;
-use Yxx\LaravelPlugin\Support\Stub;
-use Yxx\LaravelPlugin\Traits\PluginCommandTrait;
+use VanLaravelPlugin\Support\Config\GenerateConfigReader;
+use VanLaravelPlugin\Support\Migrations\NameParser;
+use VanLaravelPlugin\Support\Migrations\SchemaParser;
+use VanLaravelPlugin\Support\Stub;
+use VanLaravelPlugin\Traits\PluginCommandTrait;
 
 class MigrationMakeCommand extends GeneratorCommand
 {

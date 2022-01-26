@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Client;
+namespace VanLaravelPlugin\Support\Client;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\StreamInterface;
-use Yxx\LaravelPlugin\Contracts\ClientInterface;
-use Yxx\LaravelPlugin\Traits\HasGuzzleClient;
+use VanLaravelPlugin\Contracts\ClientInterface;
+use VanLaravelPlugin\Traits\HasGuzzleClient;
 
 class Market implements ClientInterface
 {

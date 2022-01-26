@@ -1,10 +1,10 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Console\Commands;
+namespace VanLaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Yxx\LaravelPlugin\Support\Plugin;
+use VanLaravelPlugin\Support\Plugin;
 
 class EnableCommand extends Command
 {

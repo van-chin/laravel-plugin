@@ -1,6 +1,6 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Migrations;
+namespace VanLaravelPlugin\Support\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;

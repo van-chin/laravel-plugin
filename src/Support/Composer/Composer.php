@@ -1,13 +1,13 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support\Composer;
+namespace VanLaravelPlugin\Support\Composer;
 
 use Exception;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Traits\Macroable;
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Json;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Support\Json;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 abstract class Composer
 {

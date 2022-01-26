@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Tests\Support\Composer;
+namespace VanLaravelPlugin\Tests\Support\Composer;
 
-use Yxx\LaravelPlugin\Contracts\RepositoryInterface;
-use Yxx\LaravelPlugin\Support\Composer\ComposerRequire;
-use Yxx\LaravelPlugin\Support\FileRepository;
-use Yxx\LaravelPlugin\Tests\TestCase;
-use Yxx\LaravelPlugin\ValueObjects\ValRequires;
+use VanLaravelPlugin\Contracts\RepositoryInterface;
+use VanLaravelPlugin\Support\Composer\ComposerRequire;
+use VanLaravelPlugin\Support\FileRepository;
+use VanLaravelPlugin\Tests\TestCase;
+use VanLaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequireTest extends TestCase
 {

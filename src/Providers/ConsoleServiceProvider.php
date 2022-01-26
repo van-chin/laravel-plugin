@@ -1,31 +1,31 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Providers;
+namespace VanLaravelPlugin\Providers;
 
 use Carbon\Laravel\ServiceProvider;
 use Illuminate\Support\Str;
-use Yxx\LaravelPlugin\Console\Commands\ComposerInstallCommand;
-use Yxx\LaravelPlugin\Console\Commands\ComposerRemoveCommand;
-use Yxx\LaravelPlugin\Console\Commands\ComposerRequireCommand;
-use Yxx\LaravelPlugin\Console\Commands\ControllerMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\DisableCommand;
-use Yxx\LaravelPlugin\Console\Commands\DownLoadCommand;
-use Yxx\LaravelPlugin\Console\Commands\EnableCommand;
-use Yxx\LaravelPlugin\Console\Commands\InstallCommand;
-use Yxx\LaravelPlugin\Console\Commands\ListCommand;
-use Yxx\LaravelPlugin\Console\Commands\LoginCommand;
-use Yxx\LaravelPlugin\Console\Commands\MigrateCommand;
-use Yxx\LaravelPlugin\Console\Commands\MigrationMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\ModelMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginDeleteCommand;
-use Yxx\LaravelPlugin\Console\Commands\PluginMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\ProviderMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\PublishCommand;
-use Yxx\LaravelPlugin\Console\Commands\RegisterCommand;
-use Yxx\LaravelPlugin\Console\Commands\RouteProviderMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\SeedMakeCommand;
-use Yxx\LaravelPlugin\Console\Commands\UploadCommand;
+use VanLaravelPlugin\Console\Commands\ComposerInstallCommand;
+use VanLaravelPlugin\Console\Commands\ComposerRemoveCommand;
+use VanLaravelPlugin\Console\Commands\ComposerRequireCommand;
+use VanLaravelPlugin\Console\Commands\ControllerMakeCommand;
+use VanLaravelPlugin\Console\Commands\DisableCommand;
+use VanLaravelPlugin\Console\Commands\DownLoadCommand;
+use VanLaravelPlugin\Console\Commands\EnableCommand;
+use VanLaravelPlugin\Console\Commands\InstallCommand;
+use VanLaravelPlugin\Console\Commands\ListCommand;
+use VanLaravelPlugin\Console\Commands\LoginCommand;
+use VanLaravelPlugin\Console\Commands\MigrateCommand;
+use VanLaravelPlugin\Console\Commands\MigrationMakeCommand;
+use VanLaravelPlugin\Console\Commands\ModelMakeCommand;
+use VanLaravelPlugin\Console\Commands\PluginCommand;
+use VanLaravelPlugin\Console\Commands\PluginDeleteCommand;
+use VanLaravelPlugin\Console\Commands\PluginMakeCommand;
+use VanLaravelPlugin\Console\Commands\ProviderMakeCommand;
+use VanLaravelPlugin\Console\Commands\PublishCommand;
+use VanLaravelPlugin\Console\Commands\RegisterCommand;
+use VanLaravelPlugin\Console\Commands\RouteProviderMakeCommand;
+use VanLaravelPlugin\Console\Commands\SeedMakeCommand;
+use VanLaravelPlugin\Console\Commands\UploadCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {
@@ -34,7 +34,7 @@ class ConsoleServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected string $consoleNamespace = 'Yxx\\LaravelPlugin\\Console\\Commands';
+    protected string $consoleNamespace = 'Van\LaravelPlugin\\Console\\Commands';
 
     /**
      * The available commands.

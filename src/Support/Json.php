@@ -1,12 +1,12 @@
 <?php
 
-namespace Yxx\LaravelPlugin\Support;
+namespace VanLaravelPlugin\Support;
 
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
-use Yxx\LaravelPlugin\Exceptions\InvalidJsonException;
+use VanLaravelPlugin\Exceptions\InvalidJsonException;
 
 class Json
 {
