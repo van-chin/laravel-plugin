@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Yxx\LaravelPlugin\" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Van\LaravelPlugin\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Van\LaravelPlugin\Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/tests/stubs/valid" isTestSource="true" packagePrefix="PluginsTest\" />
     </content>

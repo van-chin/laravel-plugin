@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Van\LaravelPlugin\\": "src/"
+            "Van\\LaravelPlugin\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
