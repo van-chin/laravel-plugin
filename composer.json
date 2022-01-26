@@ -1,11 +1,11 @@
 {
-    "name": "yxx/laravel-plugin",
+    "name": "van-chin/laravel-plugin",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "youyingxiang",
-            "email": "1365831278@qq.com"
+            "name": "Van Chin",
+            "email": "van.chin@qq.com"
         }
     ],
     "autoload": {
@@ -18,13 +18,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yxx\\LaravelPlugin\\Tests\\": "tests",
+            "van-chin\\LaravelPlugin\\Tests\\": "tests",
             "PluginsTest\\": "tests/stubs/valid/"
         }
     },
     "require": {
         "php": ">=7.4.0",
-        "laravel/framework": "~6.0|~7.0|~8.0",
+        "laravel/framework": "~6.0|~7.0|~8.0|~9.0|9.*",
         "ext-zip": "*"
     },
     "require-dev": {
@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Yxx\\LaravelPlugin\\Providers\\PluginServiceProvider"
+                "van-chin\\LaravelPlugin\\Providers\\PluginServiceProvider"
             ]
         }
     }
