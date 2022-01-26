@@ -1,5 +1,5 @@
 {
-    "name": "van-chin/laravel-plugin",
+    "name": "Van/laravel-plugin",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "van-chin\\LaravelPlugin\\Tests\\": "tests",
+            "Van\\LaravelPlugin\\Tests\\": "tests",
             "PluginsTest\\": "tests/stubs/valid/"
         }
     },
@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "van-chin\\LaravelPlugin\\Providers\\PluginServiceProvider"
+                "Van\\LaravelPlugin\\Providers\\PluginServiceProvider"
             ]
         }
     }

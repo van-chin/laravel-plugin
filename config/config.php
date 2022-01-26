@@ -9,7 +9,7 @@ return [
         // 插件市场 api 域名
         'api_base' => 'http://plugin.you-tang.com/',
         // 插件市场默认调用的 client class
-        'default' => \Yxx\LaravelPlugin\Support\Client\Market::class,
+        'default' => \Van\LaravelPlugin\Support\Client\Market::class,
     ],
 
     'stubs' => [
@@ -62,8 +62,8 @@ return [
     'listen' => [
         // 插件安装以后
         'plugins.installed' => [
-            \Yxx\LaravelPlugin\Listeners\PluginPublish::class,
-            \Yxx\LaravelPlugin\Listeners\PluginMigrate::class,
+            \Van\LaravelPlugin\Listeners\PluginPublish::class,
+            \Van\LaravelPlugin\Listeners\PluginMigrate::class,
         ],
         // 插件禁用之前
         'plugins.disabling' => [],
@@ -99,7 +99,7 @@ return [
 
     'activators' => [
         'file' => [
-            'class'          => \Yxx\LaravelPlugin\Activators\FileActivator::class,
+            'class'          => \Van\LaravelPlugin\Activators\FileActivator::class,
             'statuses-file'  => base_path('plugin_statuses.json'),
             'cache-key'      => 'activator.installed',
             'cache-lifetime' => 604800,
