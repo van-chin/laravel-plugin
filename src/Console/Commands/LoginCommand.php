@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
-use VanLaravelPlugin\Support\Config;
+use Van\LaravelPlugin\Support\Config;
 
 class LoginCommand extends Command
 {

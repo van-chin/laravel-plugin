@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\Exceptions;
+namespace Van\LaravelPlugin\Exceptions;
 
 class InvalidJsonException extends \Exception
 {

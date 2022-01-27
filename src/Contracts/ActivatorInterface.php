@@ -1,8 +1,8 @@
 <?php
 
-namespace VanLaravelPlugin\Contracts;
+namespace Van\LaravelPlugin\Contracts;
 
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Plugin;
 
 interface ActivatorInterface
 {

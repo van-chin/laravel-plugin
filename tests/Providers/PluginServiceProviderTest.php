@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Providers;
+namespace Van\LaravelPlugin\Tests\Providers;
 
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Exceptions\InvalidActivatorClass;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Exceptions\InvalidActivatorClass;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class PluginServiceProviderTest extends TestCase
 {

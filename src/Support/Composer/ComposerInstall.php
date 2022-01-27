@@ -1,8 +1,8 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Composer;
+namespace Van\LaravelPlugin\Support\Composer;
 
-use VanLaravelPlugin\Exceptions\ComposerException;
+use Van\LaravelPlugin\Exceptions\ComposerException;
 
 class ComposerInstall extends Composer
 {

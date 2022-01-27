@@ -1,13 +1,13 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Support\Composer;
+namespace Van\LaravelPlugin\Tests\Support\Composer;
 
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Exceptions\ComposerException;
-use VanLaravelPlugin\Support\Composer\ComposerRemove;
-use VanLaravelPlugin\Support\FileRepository;
-use VanLaravelPlugin\Tests\TestCase;
-use VanLaravelPlugin\ValueObjects\ValRequires;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Exceptions\ComposerException;
+use Van\LaravelPlugin\Support\Composer\ComposerRemove;
+use Van\LaravelPlugin\Support\FileRepository;
+use Van\LaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRemoveTest extends TestCase
 {

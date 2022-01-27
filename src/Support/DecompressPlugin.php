@@ -1,10 +1,10 @@
 <?php
 
-namespace VanLaravelPlugin\Support;
+namespace Van\LaravelPlugin\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Exceptions\DecompressPluginException;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Exceptions\DecompressPluginException;
 
 class DecompressPlugin
 {

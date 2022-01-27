@@ -1,17 +1,17 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Generators;
+namespace Van\LaravelPlugin\Support\Generators;
 
 use Exception;
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\Contracts\GeneratorInterface;
-use VanLaravelPlugin\Support\Config\GenerateConfigReader;
-use VanLaravelPlugin\Support\FileRepository;
-use VanLaravelPlugin\Support\Stub;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\Contracts\GeneratorInterface;
+use Van\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Van\LaravelPlugin\Support\FileRepository;
+use Van\LaravelPlugin\Support\Stub;
 
 class PluginGenerator implements GeneratorInterface
 {

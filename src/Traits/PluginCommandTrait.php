@@ -1,8 +1,8 @@
 <?php
 
-namespace VanLaravelPlugin\Traits;
+namespace Van\LaravelPlugin\Traits;
 
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Plugin;
 
 trait PluginCommandTrait
 {

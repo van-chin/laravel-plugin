@@ -1,14 +1,14 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use VanLaravelPlugin\Traits\HasMarketTokens;
-use VanLaravelPlugin\Traits\PluginCommandTrait;
+use Van\LaravelPlugin\Traits\HasMarketTokens;
+use Van\LaravelPlugin\Traits\PluginCommandTrait;
 
 class DownLoadCommand extends Command
 {

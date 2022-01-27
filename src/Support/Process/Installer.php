@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Process;
+namespace Van\LaravelPlugin\Support\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use Symfony\Component\Process\Process;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
 
 class Installer
 {

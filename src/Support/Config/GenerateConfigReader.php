@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Config;
+namespace Van\LaravelPlugin\Support\Config;
 
 class GenerateConfigReader
 {

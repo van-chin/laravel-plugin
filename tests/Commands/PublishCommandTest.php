@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Commands;
+namespace Van\LaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Support\Config\GenerateConfigReader;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class PublishCommandTest extends TestCase
 {

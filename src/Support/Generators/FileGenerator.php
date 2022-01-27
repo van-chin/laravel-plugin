@@ -1,10 +1,10 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Generators;
+namespace Van\LaravelPlugin\Support\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Contracts\GeneratorInterface;
-use VanLaravelPlugin\Exceptions\FileAlreadyExistException;
+use Van\LaravelPlugin\Contracts\GeneratorInterface;
+use Van\LaravelPlugin\Exceptions\FileAlreadyExistException;
 
 class FileGenerator implements GeneratorInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Process;
+namespace Van\LaravelPlugin\Support\Process;
 
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Plugin;
 
 class Updater extends Runner
 {

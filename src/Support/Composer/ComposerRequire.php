@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Composer;
+namespace Van\LaravelPlugin\Support\Composer;
 
-use VanLaravelPlugin\Exceptions\ComposerException;
-use VanLaravelPlugin\ValueObjects\ValRequires;
+use Van\LaravelPlugin\Exceptions\ComposerException;
+use Van\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequire extends Composer
 {

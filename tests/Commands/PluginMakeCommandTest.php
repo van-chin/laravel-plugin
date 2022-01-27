@@ -1,13 +1,13 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Commands;
+namespace Van\LaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class PluginMakeCommandTest extends TestCase
 {

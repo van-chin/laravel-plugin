@@ -29,7 +29,7 @@ composer require yxx/laravel-plugin
 
 * Step 2
 ```php
-php artisan vendor:publish --provider="VanLaravelPlugin\Providers\PluginServiceProvider"
+php artisan vendor:publish --provider="Van\LaravelPlugin\Providers\PluginServiceProvider"
 ```
 
 

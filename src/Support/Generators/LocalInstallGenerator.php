@@ -1,17 +1,17 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Generators;
+namespace Van\LaravelPlugin\Support\Generators;
 
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\Contracts\GeneratorInterface;
-use VanLaravelPlugin\Exceptions\LocalPathNotFoundException;
-use VanLaravelPlugin\Exceptions\PluginAlreadyExistException;
-use VanLaravelPlugin\Support\Composer\ComposerRequire;
-use VanLaravelPlugin\Support\DecompressPlugin;
-use VanLaravelPlugin\Support\FileRepository;
-use VanLaravelPlugin\Support\Json;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\Contracts\GeneratorInterface;
+use Van\LaravelPlugin\Exceptions\LocalPathNotFoundException;
+use Van\LaravelPlugin\Exceptions\PluginAlreadyExistException;
+use Van\LaravelPlugin\Support\Composer\ComposerRequire;
+use Van\LaravelPlugin\Support\DecompressPlugin;
+use Van\LaravelPlugin\Support\FileRepository;
+use Van\LaravelPlugin\Support\Json;
 
 class LocalInstallGenerator implements GeneratorInterface
 {

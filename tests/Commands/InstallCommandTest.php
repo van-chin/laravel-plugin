@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Commands;
+namespace Van\LaravelPlugin\Tests\Commands;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Event;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class InstallCommandTest extends TestCase
 {

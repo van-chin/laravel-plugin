@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Listeners;
+namespace Van\LaravelPlugin\Listeners;
 
 use Illuminate\Support\Facades\Artisan;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Plugin;
 
 class PluginMigrate
 {

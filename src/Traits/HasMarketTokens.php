@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Traits;
+namespace Van\LaravelPlugin\Traits;
 
 use Exception;
-use VanLaravelPlugin\Support\Config;
+use Van\LaravelPlugin\Support\Config;
 
 trait HasMarketTokens
 {

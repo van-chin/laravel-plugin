@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
-use VanLaravelPlugin\Support\Composer\ComposerInstall;
+use Van\LaravelPlugin\Support\Composer\ComposerInstall;
 
 class ComposerInstallCommand extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\Contracts;
+namespace Van\LaravelPlugin\Contracts;
 
 interface RunableInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Contracts;
+namespace Van\LaravelPlugin\Contracts;
 
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Exceptions\PluginNotFoundException;
-use VanLaravelPlugin\Support\Collection;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Exceptions\PluginNotFoundException;
+use Van\LaravelPlugin\Support\Collection;
+use Van\LaravelPlugin\Support\Plugin;
 
 interface RepositoryInterface
 {

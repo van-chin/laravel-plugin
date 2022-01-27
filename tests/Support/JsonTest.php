@@ -1,10 +1,10 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Support;
+namespace Van\LaravelPlugin\Tests\Support;
 
-use VanLaravelPlugin\Exceptions\InvalidJsonException;
-use VanLaravelPlugin\Support\Json;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Exceptions\InvalidJsonException;
+use Van\LaravelPlugin\Support\Json;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class JsonTest extends TestCase
 {

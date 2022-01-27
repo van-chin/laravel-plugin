@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use VanLaravelPlugin\Support\Plugin;
-use VanLaravelPlugin\Support\Publishing\AssetPublisher;
+use Van\LaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Publishing\AssetPublisher;
 
 class PublishCommand extends Command
 {

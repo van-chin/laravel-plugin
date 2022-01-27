@@ -1,13 +1,13 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Support\Str;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use VanLaravelPlugin\Support\Config\GenerateConfigReader;
-use VanLaravelPlugin\Support\Stub;
-use VanLaravelPlugin\Traits\PluginCommandTrait;
+use Van\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Van\LaravelPlugin\Support\Stub;
+use Van\LaravelPlugin\Traits\PluginCommandTrait;
 
 class ProviderMakeCommand extends GeneratorCommand
 {

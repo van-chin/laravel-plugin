@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\ValueObjects;
+namespace Van\LaravelPlugin\ValueObjects;
 
 use Illuminate\Support\Arr;
 

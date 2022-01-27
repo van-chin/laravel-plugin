@@ -1,13 +1,13 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Mockery\Exception;
 use Symfony\Component\Console\Input\InputArgument;
-use VanLaravelPlugin\Support\CompressPlugin;
-use VanLaravelPlugin\Traits\HasMarketTokens;
-use VanLaravelPlugin\Traits\PluginCommandTrait;
+use Van\LaravelPlugin\Support\CompressPlugin;
+use Van\LaravelPlugin\Traits\HasMarketTokens;
+use Van\LaravelPlugin\Traits\PluginCommandTrait;
 
 class UploadCommand extends Command
 {

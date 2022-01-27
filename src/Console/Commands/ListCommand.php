@@ -1,10 +1,10 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Plugin;
 
 class ListCommand extends Command
 {

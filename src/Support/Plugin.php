@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\Support;
+namespace Van\LaravelPlugin\Support;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;
@@ -11,8 +11,8 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Translation\Translator;
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\ValueObjects\ValRequires;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\ValueObjects\ValRequires;
 
 class Plugin
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
-use VanLaravelPlugin\Exceptions\FileAlreadyExistException;
-use VanLaravelPlugin\Support\Generators\FileGenerator;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Exceptions\FileAlreadyExistException;
+use Van\LaravelPlugin\Support\Generators\FileGenerator;
+use Van\LaravelPlugin\Support\Plugin;
 
 abstract class GeneratorCommand extends Command
 {

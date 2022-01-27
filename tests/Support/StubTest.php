@@ -1,10 +1,10 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Support;
+namespace Van\LaravelPlugin\Tests\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Support\Stub;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Support\Stub;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class StubTest extends TestCase
 {

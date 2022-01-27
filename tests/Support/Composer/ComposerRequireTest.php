@@ -1,12 +1,12 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Support\Composer;
+namespace Van\LaravelPlugin\Tests\Support\Composer;
 
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Support\Composer\ComposerRequire;
-use VanLaravelPlugin\Support\FileRepository;
-use VanLaravelPlugin\Tests\TestCase;
-use VanLaravelPlugin\ValueObjects\ValRequires;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Support\Composer\ComposerRequire;
+use Van\LaravelPlugin\Support\FileRepository;
+use Van\LaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequireTest extends TestCase
 {

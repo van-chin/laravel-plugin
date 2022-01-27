@@ -1,8 +1,8 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Publishing;
+namespace Van\LaravelPlugin\Support\Publishing;
 
-use VanLaravelPlugin\Support\Config\GenerateConfigReader;
+use Van\LaravelPlugin\Support\Config\GenerateConfigReader;
 
 class AssetPublisher extends Publisher
 {

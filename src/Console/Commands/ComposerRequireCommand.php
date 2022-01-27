@@ -1,14 +1,14 @@
 <?php
 
-namespace VanLaravelPlugin\Console\Commands;
+namespace Van\LaravelPlugin\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
-use VanLaravelPlugin\Support\Composer\ComposerRequire;
-use VanLaravelPlugin\Support\Json;
-use VanLaravelPlugin\Traits\PluginCommandTrait;
-use VanLaravelPlugin\ValueObjects\ValRequires;
+use Van\LaravelPlugin\Support\Composer\ComposerRequire;
+use Van\LaravelPlugin\Support\Json;
+use Van\LaravelPlugin\Traits\PluginCommandTrait;
+use Van\LaravelPlugin\ValueObjects\ValRequires;
 
 class ComposerRequireCommand extends Command
 {

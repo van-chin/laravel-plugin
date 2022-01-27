@@ -1,13 +1,13 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Migrations;
+namespace Van\LaravelPlugin\Support\Migrations;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use VanLaravelPlugin\Support\Config\GenerateConfigReader;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Support\Config\GenerateConfigReader;
+use Van\LaravelPlugin\Support\Plugin;
 
 class Migrator
 {

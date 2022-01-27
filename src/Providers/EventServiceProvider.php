@@ -1,6 +1,6 @@
 <?php
 
-namespace VanLaravelPlugin\Providers;
+namespace Van\LaravelPlugin\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Event;

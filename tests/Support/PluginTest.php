@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Support;
+namespace Van\LaravelPlugin\Tests\Support;
 
 use PluginsTest\PluginOne\Providers\PluginOneServiceProvider;
-use VanLaravelPlugin\Contracts\ActivatorInterface;
-use VanLaravelPlugin\Support\Plugin;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\ActivatorInterface;
+use Van\LaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class PluginTest extends TestCase
 {

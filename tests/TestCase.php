@@ -1,9 +1,9 @@
 <?php
 
-namespace VanLaravelPlugin\Tests;
+namespace Van\LaravelPlugin\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use VanLaravelPlugin\Providers\PluginServiceProvider;
+use Van\LaravelPlugin\Providers\PluginServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace VanLaravelPlugin\Support\Publishing;
+namespace Van\LaravelPlugin\Support\Publishing;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use VanLaravelPlugin\Contracts\PublisherInterface;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Contracts\PublisherInterface;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Support\Plugin;
 
 abstract class Publisher implements PublisherInterface
 {

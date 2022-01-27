@@ -1,11 +1,11 @@
 <?php
 
-namespace VanLaravelPlugin\Tests\Commands;
+namespace Van\LaravelPlugin\Tests\Commands;
 
 use Illuminate\Support\Facades\Event;
-use VanLaravelPlugin\Contracts\RepositoryInterface;
-use VanLaravelPlugin\Support\Plugin;
-use VanLaravelPlugin\Tests\TestCase;
+use Van\LaravelPlugin\Contracts\RepositoryInterface;
+use Van\LaravelPlugin\Support\Plugin;
+use Van\LaravelPlugin\Tests\TestCase;
 
 class DisableCommandTest extends TestCase
 {
